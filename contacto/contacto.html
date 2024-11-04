@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alta en la Web</title>
+    <link rel="stylesheet" href="../css/contacto.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <img src="../imatges/Logo-Delicias.png" alt="Logo" class="logo">
+            <nav class="navbar">
+                <ul>
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="#Sobre mí">Sobre mí</a></li>
+                    <li><a href="../listado/listado.html">Recetas</a></li>
+                    <li><a href="../contacto/contacto.html">Contacto</a></li>
+                    <li><a href="#OtrasCosas">Otras Cosas</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <h1 class="title">Darse de alta en la Web</h1>
+    <main>
+        <div class="form-container">
+            <form action="/submit" method="GET">
+                <h2>Formulario de Inscripción</h2>
+
+                <!-- Campo de texto para nombre -->
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" required placeholder="Introduce tu nombre">
+
+                <!-- Campo de correo electrónico -->
+                <label for="email">Correo Electronico:</label>
+                <input type="email" id="email" name="email" required placeholder="Introduce tu correo electronico">
+
+                <!-- Campo de selección para tipo de recepta -->
+                <label for="recipe-type">Recetas:</label>
+                <select id="recipe-type" name="recipe-type" required>
+                    <option value="" disabled selected>Selecciona una receta</option>
+                    <option value="R1">Pasta con Salsa de Coliflor y Pimienta de Jamaica</option>
+                    <option value="R2">Galletas de Avena, Rosa y Lima</option>
+                    <option value="R3">Mijo cremoso con lentejas, hortalizas y shiitake</option>
+                    <option value="R4">Calabacines Rellenos de Arroz Negro y Calabaza</option>
+                </select>
+
+                <!-- Área de texto para el comentario -->
+                <label for="comment">Comentario:</label>
+                <textarea id="comment" name="comment" rows="4" required placeholder="Introduce tu comentario aquí"></textarea>
+
+                <!-- Botón de envío -->
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+    </footer>
+</body>
+</html>

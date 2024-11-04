@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    padding-bottom: 10px;
+    height: 200px;
+}
+
+.title {
+    background-color: #7ABA96;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #c9c9c9;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+a {
+    color: #7ABA96;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.pagination {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.page-button {
+    background-color: #7ABA96;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.page-button:hover {
+    background-color: #6cae88;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #7ABA96;
+    color: white;
+}
+
+.header-container {
+    position: fixed; /* Cambiado a fixed */
+    top: 0;
+    left: 0;
+    right: 0; /* Asegura que ocupe todo el ancho */
+    text-align: center;
+    padding: 20px 0;
+    background-color: white; /* Color de fondo */
+    z-index: 1; /* Por encima de otros elementos */
+}
+.logo {
+    display: block;
+    margin: 0 auto;
+    width: 300px; /* Ajusta el tamaño de la imagen del logo */
+    height: 80px; /* Ajusta la altura de la imagen del logo */
+}
+.navbar {
+    margin-top: 20px;
+    border-top:1px solid #998c74;
+    border-bottom:1px solid #998c74;
+    padding:  20px;
+    
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    padding: 10px;
+    transition: color 0.3s, background-color 0.3s;
+}
+
+.navbar li a:hover {
+    color: #fff;
+    background-color: #7aba96;
+    border-radius: 5px;
+}

@@ -10,11 +10,13 @@ body {
 
 header {
     padding-bottom: 10px;
+    height: 200px;
 }
 
 h1 {
     font-size: 2.5em;
     margin: 0;
+    text-align: center;
 }
 
 h2 {
@@ -111,4 +113,18 @@ footer {
     display: flex;
     justify-content: center;
     gap: 20px;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    padding: 10px;
+    transition: color 0.3s, background-color 0.3s;
+}
+
+.navbar li a:hover {
+    color: #fff;
+    background-color: #7aba96;
+    border-radius: 5px;
 }
