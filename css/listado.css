@@ -65,10 +65,36 @@ a:hover {
 }
 
 footer {
-    text-align: center;
-    padding: 10px 0;
-    background-color: #7ABA96;
+    background-color: #333;
     color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+footer ul li {
+    display: inline;
+}
+
+footer ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+footer ul li a:hover {
+    color: #7ABA96; /* Hover color */
 }
 
 .header-container {
