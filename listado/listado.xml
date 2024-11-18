@@ -1,0 +1,574 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="listado.xsl" ?>
+<recetario>
+    <header>
+        <header-container>
+            <logo src="../imatges/Logo-Delicias.png" alt="Logo"/>
+            <navbar>
+                <menu>
+                    <item href="../index.html">Inicio</item>
+                    <item href="../sobre_mi/sobre.html">Sobre mí</item>
+                    <item href="../listado/listado.html">Recetas</item>
+                    <item href="../contacto/contacto.html">Contacto</item>
+                    <item href="#OtrasCosas">Otras Cosas</item>
+                </menu>
+            </navbar>
+        </header-container>
+    </header>
+    <nombre>Recetario Familiar</nombre>
+    <autor>Juan Pérez</autor>
+    <dni>12345678A</dni>
+    <recetas>
+        <receta>
+            <titulo>Ensalada César</titulo>
+            <ingredientes>
+                <ingrediente>
+                    <nombre>Lechuga romana</nombre>
+                    <cantidad>1</cantidad>
+                    <medida>unidad</medida>
+                </ingrediente>
+                <ingrediente>
+                    <nombre>Pechuga de pollo</nombre>
+                    <cantidad>200</cantidad>
+                    <medida>gramos</medida>
+                </ingrediente>
+                <ingrediente>
+                    <nombre>Crutones</nombre>
+                    <cantidad>50</cantidad>
+                    <medida>gramos</medida>
+                </ingrediente>
+                <ingrediente>
+                    <nombre>Queso parmesano</nombre>
+                    <cantidad>30</cantidad>
+                    <medida>gramos</medida>
+                </ingrediente>
+                <ingrediente>
+                    <nombre>Aderezo César</nombre>
+                    <cantidad>3</cantidad>
+                    <medida>cucharadas</medida>
+                </ingrediente>
+            </ingredientes>
+            <preparacion>
+                <paso>Lava y corta la lechuga.</paso>
+                <paso>Asa la pechuga de pollo y córtala en tiras.</paso>
+                <paso>Mezcla todos los ingredientes en un bol.</paso>
+                <paso>Agrega el aderezo César y mezcla nuevamente.</paso>
+            </preparacion>
+        </receta>
+        <receta>
+            <titulo>Pasta Carbonara</titulo>
+            <ingredientes>
+                <ingrediente>
+                    <nombre>Pasta espagueti</nombre>
+                    <cantidad>300</cantidad>
+                    <medida>gramos</medida>
+                </ingrediente>
+                <ingrediente>
+                    <nombre>Panceta</nombre>
+                    <cantidad>100</cantidad>
+                    <medida>gramos</medida>
+                </ingrediente>
+                <ingrediente>
+                    <nombre>Huevos</nombre>
+                    <cantidad>3</cantidad>
+                    <medida>unidades</medida>
+                </ingrediente>
+                <ingrediente>
+                    <nombre>Queso pecorino</nombre>
+                    <cantidad>50</cantidad>
+                    <medida>gramos</medida>
+                </ingrediente>
+                <ingrediente>
+                    <nombre>Pimienta negra</nombre>
+                    <cantidad>1</cantidad>
+                    <medida>cucharadita</medida>
+                </ingrediente>
+            </ingredientes>
+            <preparacion>
+                <paso>Cocina la pasta hasta que esté al dente.</paso>
+                <paso>Dora la panceta en una sartén.</paso>
+                <paso>Mezcla huevos batidos con queso rallado.</paso>
+                <paso>Combina la pasta con la panceta y la mezcla de huevo fuera del fuego.</paso>
+            </preparacion>
+        </receta>
+        <receta>
+            <titulo>Sopa de Tomate</titulo>
+            <ingredientes>
+                <ingrediente>
+                    <nombre>Tomates maduros</nombre>
+                    <cantidad>500</cantidad>
+                    <medida>gramos</medida>
+                </ingrediente>
+                <ingrediente>
+                    <nombre>Cebolla</nombre>
+                    <cantidad>1</cantidad>
+                    <medida>unidad</medida>
+                </ingrediente>
+                <ingrediente>
+                    <nombre>Ajo</nombre>
+                    <cantidad>2</cantidad>
+                    <medida>dientes</medida>
+                </ingrediente>
+                <ingrediente>
+                    <nombre>Caldo de verduras</nombre>
+                    <cantidad>500</cantidad>
+                    <medida>mililitros</medida>
+                </ingrediente>
+                <ingrediente>
+                    <nombre>Crema</nombre>
+                    <cantidad>50</cantidad>
+                    <medida>mililitros</medida>
+                </ingrediente>
+            </ingredientes>
+            <preparacion>
+                <paso>Dora la cebolla y el ajo picados en aceite de oliva.</paso>
+                <paso>Añade los tomates y cocina hasta que se deshagan.</paso>
+                <paso>Vierte el caldo y cocina por 20 minutos.</paso>
+                <paso>Licua la sopa y sirve con crema.</paso>
+            </preparacion>
+        </receta>
+        <receta>
+            <titulo>Guacamole</titulo>
+            <ingredientes>
+                <ingrediente>
+                    <nombre>Aguacates</nombre>
+                    <cantidad>2</cantidad>
+                    <medida>unidades</medida>
+                </ingrediente>
+                <ingrediente>
+                    <nombre>Tomate</nombre>
+                    <cantidad>1</cantidad>
+                    <medida>unidad</medida>
+                </ingrediente>
+                <ingrediente>
+                    <nombre>Cebolla</nombre>
+                    <cantidad>0.5</cantidad>
+                    <medida>unidad</medida>
+                </ingrediente>
+                <ingrediente>
+                    <nombre>Jugo de limón</nombre>
+                    <cantidad>2</cantidad>
+                    <medida>cucharadas</medida>
+                </ingrediente>
+                <ingrediente>
+                    <nombre>Sal</nombre>
+                    <cantidad>1</cantidad>
+                    <medida>cucharadita</medida>
+                </ingrediente>
+            </ingredientes>
+            <preparacion>
+                <paso>Pela y machaca los aguacates.</paso>
+                <paso>Agrega tomate y cebolla picados.</paso>
+                <paso>Exprime el limón y añade la sal.</paso>
+                <paso>Mezcla bien y sirve.</paso>
+            </preparacion>
+        </receta>
+        <receta>
+            <titulo>Pizza Margarita</titulo>
+            <ingredientes>
+                <ingrediente>
+                    <nombre>Masa para pizza</nombre>
+                    <cantidad>1</cantidad>
+                    <medida>unidad</medida>
+                </ingrediente>
+                <ingrediente>
+                    <nombre>Salsa de tomate</nombre>
+                    <cantidad>200</cantidad>
+                    <medida>mililitros</medida>
+                </ingrediente>
+                <ingrediente>
+                    <nombre>Mozzarella</nombre>
+                    <cantidad>150</cantidad>
+                    <medida>gramos</medida>
+                </ingrediente>
+                <ingrediente>
+                    <nombre>Albahaca fresca</nombre>
+                    <cantidad>5</cantidad>
+                    <medida>hojas</medida>
+                </ingrediente>
+                <ingrediente>
+                    <nombre>Aceite de oliva</nombre>
+                    <cantidad>1</cantidad>
+                    <medida>cucharada</medida>
+                </ingrediente>
+            </ingredientes>
+            <preparacion>
+                <paso>Extiende la masa en una bandeja de horno.</paso>
+                <paso>Cubre con salsa de tomate.</paso>
+                <paso>Añade mozzarella en rodajas.</paso>
+                <paso>Hornea a 200°C durante 15 minutos.</paso>
+                <paso>Decora con hojas de albahaca y rocía aceite de oliva.</paso>
+            </preparacion>
+        </receta>
+        <receta>
+            <titulo>Paella Valenciana</titulo>
+            <ingredientes>
+                <ingrediente>
+                    <nombre>Arroz</nombre>
+                    <cantidad>300</cantidad>
+                    <medida>gramos</medida>
+                </ingrediente>
+                <ingrediente>
+                    <nombre>Pollo</nombre>
+                    <cantidad>300</cantidad>
+                    <medida>gramos</medida>
+                </ingrediente>
+                <ingrediente>
+                    <nombre>Judía verde</nombre>
+                    <cantidad>100</cantidad>
+                    <medida>gramos</medida>
+                </ingrediente>
+                <ingrediente>
+                    <nombre>Tomate</nombre>
+                    <cantidad>2</cantidad>
+                    <medida>unidades</medida>
+                </ingrediente>
+                <ingrediente>
+                    <nombre>Azafrán</nombre>
+                    <cantidad>1</cantidad>
+                    <medida>pizca</medida>
+                </ingrediente>
+            </ingredientes>
+            <preparacion>
+                <paso>Sofríe el pollo troceado en una paellera.</paso>
+                <paso>Añade la judía verde y el tomate picado.</paso>
+                <paso>Agrega el arroz y sofríelo unos minutos.</paso>
+                <paso>Vierte el caldo con azafrán y cocina hasta que el arroz esté seco.</paso>
+            </preparacion>
+        </receta>
+        <receta>
+            <titulo>Chili con Carne</titulo>
+            <ingredientes>
+                <ingrediente>
+                    <nombre>Carne molida</nombre>
+                    <cantidad>500</cantidad>
+                    <medida>gramos</medida>
+                </ingrediente>
+                <ingrediente>
+                    <nombre>Frijoles rojos</nombre>
+                    <cantidad>200</cantidad>
+                    <medida>gramos</medida>
+                </ingrediente>
+                <ingrediente>
+                    <nombre>Tomate triturado</nombre>
+                    <cantidad>400</cantidad>
+                    <medida>gramos</medida>
+                </ingrediente>
+                <ingrediente>
+                    <nombre>Pimiento verde</nombre>
+                    <cantidad>1</cantidad>
+                    <medida>unidad</medida>
+                </ingrediente>
+                <ingrediente>
+                    <nombre>Chile en polvo</nombre>
+                    <cantidad>1</cantidad>
+                    <medida>cucharadita</medida>
+                </ingrediente>
+            </ingredientes>
+            <preparacion>
+                <paso>Dora la carne en una sartén grande.</paso>
+                <paso>Añade el pimiento picado y cocina hasta que esté tierno.</paso>
+                <paso>Agrega el tomate, los frijoles y el chile en polvo.</paso>
+                <paso>Cocina a fuego lento durante 20 minutos.</paso>
+            </preparacion>
+        </receta>
+        <receta>
+            <titulo>Tacos de Pescado</titulo>
+            <ingredientes>
+                <ingrediente>
+                    <nombre>Tortillas</nombre>
+                    <cantidad>6</cantidad>
+                    <medida>unidades</medida>
+                </ingrediente>
+                <ingrediente>
+                    <nombre>Pescado blanco</nombre>
+                    <cantidad>300</cantidad>
+                    <medida>gramos</medida>
+                </ingrediente>
+                <ingrediente>
+                    <nombre>Repollo</nombre>
+                    <cantidad>100</cantidad>
+                    <medida>gramos</medida>
+                </ingrediente>
+                <ingrediente>
+                    <nombre>Crema agria</nombre>
+                    <cantidad>50</cantidad>
+                    <medida>mililitros</medida>
+                </ingrediente>
+                <ingrediente>
+                    <nombre>Limón</nombre>
+                    <cantidad>1</cantidad>
+                    <medida>unidad</medida>
+                </ingrediente>
+            </ingredientes>
+            <preparacion>
+                <paso>Asa el pescado con sal y pimienta.</paso>
+                <paso>Calienta las tortillas.</paso>
+                <paso>Rellena las tortillas con pescado y repollo picado.</paso>
+                <paso>Añade crema agria y jugo de limón antes de servir.</paso>
+            </preparacion>
+        </receta>
+        <receta>
+            <titulo>Hamburguesa Clásica</titulo>
+            <ingredientes>
+                <ingrediente>
+                    <nombre>Carne molida</nombre>
+                    <cantidad>200</cantidad>
+                    <medida>gramos</medida>
+                </ingrediente>
+                <ingrediente>
+                    <nombre>Pan de hamburguesa</nombre>
+                    <cantidad>2</cantidad>
+                    <medida>unidades</medida>
+                </ingrediente>
+                <ingrediente>
+                    <nombre>Queso cheddar</nombre>
+                    <cantidad>2</cantidad>
+                    <medida>rebanadas</medida>
+                </ingrediente>
+                <ingrediente>
+                    <nombre>Lechuga</nombre>
+                    <cantidad>2</cantidad>
+                    <medida>hojas</medida>
+                </ingrediente>
+                <ingrediente>
+                    <nombre>Tomate</nombre>
+                    <cantidad>2</cantidad>
+                    <medida>rebanadas</medida>
+                </ingrediente>
+            </ingredientes>
+            <preparacion>
+                <paso>Forma hamburguesas con la carne y sazona.</paso>
+                <paso>Cocina las hamburguesas en una sartén hasta el punto deseado.</paso>
+                <paso>Coloca el queso cheddar encima para que se derrita.</paso>
+                <paso>Monta las hamburguesas en el pan con lechuga y tomate.</paso>
+            </preparacion>
+        </receta>
+        <receta>
+            <titulo>Pollo al Curry</titulo>
+            <ingredientes>
+                <ingrediente>
+                    <nombre>Pechuga de pollo</nombre>
+                    <cantidad>300</cantidad>
+                    <medida>gramos</medida>
+                </ingrediente>
+                <ingrediente>
+                    <nombre>Leche de coco</nombre>
+                    <cantidad>400</cantidad>
+                    <medida>mililitros</medida>
+                </ingrediente>
+                <ingrediente>
+                    <nombre>Curry en polvo</nombre>
+                    <cantidad>2</cantidad>
+                    <medida>cucharaditas</medida>
+                </ingrediente>
+                <ingrediente>
+                    <nombre>Cebolla</nombre>
+                    <cantidad>1</cantidad>
+                    <medida>unidad</medida>
+                </ingrediente>
+                <ingrediente>
+                    <nombre>Arroz</nombre>
+                    <cantidad>200</cantidad>
+                    <medida>gramos</medida>
+                </ingrediente>
+            </ingredientes>
+            <preparacion>
+                <paso>Dora el pollo en trozos en una sartén.</paso>
+                <paso>Añade la cebolla picada y cocina hasta que esté tierna.</paso>
+                <paso>Incorpora el curry y la leche de coco. Cocina a fuego lento.</paso>
+                <paso>Sírvelo acompañado de arroz blanco.</paso>
+            </preparacion>
+        </receta>
+        <receta>
+            <titulo>Lasagna de Carne</titulo>
+            <ingredientes>
+                <ingrediente>
+                    <nombre>Láminas de lasagna</nombre>
+                    <cantidad>12</cantidad>
+                    <medida>unidades</medida>
+                </ingrediente>
+                <ingrediente>
+                    <nombre>Carne molida</nombre>
+                    <cantidad>400</cantidad>
+                    <medida>gramos</medida>
+                </ingrediente>
+                <ingrediente>
+                    <nombre>Tomate triturado</nombre>
+                    <cantidad>500</cantidad>
+                    <medida>gramos</medida>
+                </ingrediente>
+                <ingrediente>
+                    <nombre>Queso mozzarella</nombre>
+                    <cantidad>200</cantidad>
+                    <medida>gramos</medida>
+                </ingrediente>
+                <ingrediente>
+                    <nombre>Bechamel</nombre>
+                    <cantidad>500</cantidad>
+                    <medida>mililitros</medida>
+                </ingrediente>
+            </ingredientes>
+            <preparacion>
+                <paso>Cocina la carne y mezcla con el tomate triturado.</paso>
+                <paso>Hierve las láminas de lasagna según las instrucciones.</paso>
+                <paso>Alterna capas de carne, láminas y bechamel en una bandeja.</paso>
+                <paso>Cubre con queso y hornea a 180°C durante 30 minutos.</paso>
+            </preparacion>
+        </receta>
+        <receta>
+            <titulo>Ratatouille</titulo>
+            <ingredientes>
+                <ingrediente>
+                    <nombre>Calabacín</nombre>
+                    <cantidad>2</cantidad>
+                    <medida>unidades</medida>
+                </ingrediente>
+                <ingrediente>
+                    <nombre>Berenjena</nombre>
+                    <cantidad>2</cantidad>
+                    <medida>unidades</medida>
+                </ingrediente>
+                <ingrediente>
+                    <nombre>Pimiento rojo</nombre>
+                    <cantidad>1</cantidad>
+                    <medida>unidad</medida>
+                </ingrediente>
+                <ingrediente>
+                    <nombre>Tomate triturado</nombre>
+                    <cantidad>400</cantidad>
+                    <medida>gramos</medida>
+                </ingrediente>
+                <ingrediente>
+                    <nombre>Aceite de oliva</nombre>
+                    <cantidad>2</cantidad>
+                    <medida>cucharadas</medida>
+                </ingrediente>
+            </ingredientes>
+            <preparacion>
+                <paso>Corta las verduras en rodajas finas.</paso>
+                <paso>Unta una bandeja con aceite y coloca las rodajas en capas.</paso>
+                <paso>Vierte el tomate triturado encima.</paso>
+                <paso>Hornea a 180°C durante 40 minutos.</paso>
+            </preparacion>
+        </receta>
+        <receta>
+            <titulo>Crema de Calabaza</titulo>
+            <ingredientes>
+                <ingrediente>
+                    <nombre>Calabaza</nombre>
+                    <cantidad>500</cantidad>
+                    <medida>gramos</medida>
+                </ingrediente>
+                <ingrediente>
+                    <nombre>Cebolla</nombre>
+                    <cantidad>1</cantidad>
+                    <medida>unidad</medida>
+                </ingrediente>
+                <ingrediente>
+                    <nombre>Papas</nombre>
+                    <cantidad>200</cantidad>
+                    <medida>gramos</medida>
+                </ingrediente>
+                <ingrediente>
+                    <nombre>Caldo de verduras</nombre>
+                    <cantidad>500</cantidad>
+                    <medida>mililitros</medida>
+                </ingrediente>
+                <ingrediente>
+                    <nombre>Crema</nombre>
+                    <cantidad>50</cantidad>
+                    <medida>mililitros</medida>
+                </ingrediente>
+            </ingredientes>
+            <preparacion>
+                <paso>Pela y corta la calabaza, cebolla y papas.</paso>
+                <paso>Cocina todo en el caldo hasta que esté tierno.</paso>
+                <paso>Licúa los ingredientes hasta obtener una crema.</paso>
+                <paso>Agrega la crema antes de servir.</paso>
+            </preparacion>
+        </receta>
+        <receta>
+            <titulo>Pollo al Limón</titulo>
+            <ingredientes>
+                <ingrediente>
+                    <nombre>Pechuga de pollo</nombre>
+                    <cantidad>2</cantidad>
+                    <medida>unidades</medida>
+                </ingrediente>
+                <ingrediente>
+                    <nombre>Limón</nombre>
+                    <cantidad>2</cantidad>
+                    <medida>unidades</medida>
+                </ingrediente>
+                <ingrediente>
+                    <nombre>Mantequilla</nombre>
+                    <cantidad>30</cantidad>
+                    <medida>gramos</medida>
+                </ingrediente>
+                <ingrediente>
+                    <nombre>Ajo</nombre>
+                    <cantidad>2</cantidad>
+                    <medida>dientes</medida>
+                </ingrediente>
+                <ingrediente>
+                    <nombre>Perejil</nombre>
+                    <cantidad>1</cantidad>
+                    <medida>cucharada</medida>
+                </ingrediente>
+            </ingredientes>
+            <preparacion>
+                <paso>Marina el pollo en jugo de limón durante 30 minutos.</paso>
+                <paso>Dora el pollo en mantequilla.</paso>
+                <paso>Añade ajo picado y el jugo de otro limón.</paso>
+                <paso>Espolvorea perejil antes de servir.</paso>
+            </preparacion>
+        </receta>
+        <receta>
+            <titulo>Flan de Vainilla</titulo>
+            <ingredientes>
+                <ingrediente>
+                    <nombre>Huevos</nombre>
+                    <cantidad>4</cantidad>
+                    <medida>unidades</medida>
+                </ingrediente>
+                <ingrediente>
+                    <nombre>Leche</nombre>
+                    <cantidad>500</cantidad>
+                    <medida>mililitros</medida>
+                </ingrediente>
+                <ingrediente>
+                    <nombre>Azúcar</nombre>
+                    <cantidad>100</cantidad>
+                    <medida>gramos</medida>
+                </ingrediente>
+                <ingrediente>
+                    <nombre>Esencia de vainilla</nombre>
+                    <cantidad>1</cantidad>
+                    <medida>cucharadita</medida>
+                </ingrediente>
+                <ingrediente>
+                    <nombre>Caramelo líquido</nombre>
+                    <cantidad>50</cantidad>
+                    <medida>mililitros</medida>
+                </ingrediente>
+            </ingredientes>
+            <preparacion>
+                <paso>Bate los huevos con el azúcar y la vainilla.</paso>
+                <paso>Incorpora la leche lentamente.</paso>
+                <paso>Vierte la mezcla en moldes con caramelo en el fondo.</paso>
+                <paso>Hornea al baño maría a 180°C durante 40 minutos.</paso>
+            </preparacion>
+        </receta>
+        <footer>
+            <menu>
+                <item href="#">FACEBOOK</item>
+                <item href="#">TWITTER</item>
+                <item href="#">INSTAGRAM</item>
+                <item href="#">PINTEREST</item>
+                <item href="#">EMAIL</item>
+                <item href="#">RSS</item>
+            </menu>
+        </footer>
+    </recetas>
+</recetario>
