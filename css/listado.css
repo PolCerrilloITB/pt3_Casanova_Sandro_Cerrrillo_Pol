@@ -63,6 +63,12 @@ a:hover {
 .page-button:hover {
     background-color: #6cae88;
 }
+.noBoldpage-button {
+    font-weight: normal;
+}
+.estilo {
+    color: #000000
+}
 
 footer {
     background-color: #333;
