@@ -1,10 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
 <xsl:transform xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="2.0">
     <xsl:output method="html" doctype-public="XSLT-compat" omit-xml-declaration="yes" encoding="UTF-8" indent="yes" />
 
+    <!-- Encabezado -->
     <xsl:template name="header">
       <header>
         <div class="header-container">
-          <img src="../imatges/Logo-Delicias.png" alt="Logo" class="logo"/>
           <nav class="navbar">
             <ul>
               <li><a href="../index.html">Inicio</a></li>
@@ -17,7 +18,8 @@
         </div>
       </header>
     </xsl:template>
-  
+
+    <!-- Pie de página -->
     <xsl:template name="footer">
       <footer>
         <ul>
@@ -30,7 +32,8 @@
         </ul>
       </footer>
     </xsl:template>
-  
+
+    <!-- Transformación principal -->
     <xsl:template match="/receptes">
       <xsl:for-each select="recepta">
         <xsl:result-document href="recepta_{position()}.html">
@@ -41,9 +44,8 @@
             </head>
             <body>
               <xsl:call-template name="header"/>
-  
+
               <h1><xsl:value-of select="nom"/></h1>
-              <img src="<xsl:value-of select='imatge'/>" alt="Imagen de la receta"/>
               <h2>Ingredients:</h2>
               <ul>
                 <xsl:for-each select="ingredients/ingredient">
@@ -52,7 +54,7 @@
               </ul>
               <h2>Instruccions:</h2>
               <p><xsl:value-of select="instruccions"/></p>
-  
+
               <xsl:call-template name="footer"/>
             </body>
           </html>
