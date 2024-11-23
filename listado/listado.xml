@@ -2,27 +2,6 @@
 <?xml-stylesheet type="text/xsl" href="listado.xsl" ?>
 <recetas>
     <receta>
-        <titulo>Paella Valenciana</titulo>
-        <imagen url="https://www.dani.es/sites/default/files/2023-04/Paella_Valenciana_Sazonador_Paella.jpg" alt="Paella Valenciana" />
-        <ingredientes>
-            <ingrediente cantidad="1 taza">Arroz</ingrediente>
-            <ingrediente cantidad="500g">Mariscos</ingrediente>
-            <ingrediente>Pollo troceado</ingrediente>
-            <ingrediente>Verduras variadas</ingrediente>
-            <ingrediente>Azafrán</ingrediente>
-            <ingrediente>Caldo de pescado</ingrediente>
-            <ingrediente>Ajo, cebolla, tomate</ingrediente>
-            <ingrediente>Sal y pimienta</ingrediente>
-        </ingredientes>
-        <instrucciones>
-            <paso numero="1">En una paellera, calienta aceite de oliva y sofríe el pollo hasta dorarlo.</paso>
-            <paso numero="2">Agrega las verduras y los mariscos, y sofríe durante unos minutos.</paso>
-            <paso numero="3">Incorpora el arroz y mezcla bien con los ingredientes.</paso>
-            <paso numero="4">Vierte el caldo de pescado caliente y el azafrán. Cocina a fuego medio hasta que el arroz esté listo.</paso>
-            <paso numero="5">Deja reposar antes de servir y disfruta de tu Paella Valenciana.</paso>
-        </instrucciones>
-    </receta>
-    <receta>
     <titulo>Paella Valenciana</titulo>
     <imagen url="https://www.dani.es/sites/default/files/2023-04/Paella_Valenciana_Sazonador_Paella.jpg" alt="Paella Valenciana" />
     <ingredientes>
