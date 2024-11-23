@@ -21,12 +21,12 @@
   <xsl:template name="footer">
     <footer>
       <ul>
-        <li><a href="<xsl:value-of select='social/facebook'/>">FACEBOOK</a></li>
-        <li><a href="<xsl:value-of select='social/twitter'/>">TWITTER</a></li>
-        <li><a href="<xsl:value-of select='social/instagram'/>">INSTAGRAM</a></li>
-        <li><a href="<xsl:value-of select='social/pinterest'/>">PINTEREST</a></li>
-        <li><a href="<xsl:value-of select='social/email'/>">EMAIL</a></li>
-        <li><a href="<xsl:value-of select='social/rss'/>">RSS</a></li>
+        <li><a href="#">FACEBOOK</a></li>
+        <li><a href="#">TWITTER</a></li>
+        <li><a href="#">INSTAGRAM</a></li>
+        <li><a href="#">PINTEREST</a></li>
+        <li><a href="#">EMAIL</a></li>
+        <li><a href="#">RSS</a></li>
       </ul>
     </footer>
   </xsl:template>
